@@ -1,7 +1,7 @@
 while True:
     try:
-        a = float(input('Введите число а: '))
-        b = float(input("Введите число б: "))
+        a = int(input('Введите число а: '))
+        b = int(input("Введите число б: "))
         operation = input('Введите знак операции "+", "-", "*", "/", или "0" для выхода из программы: ')
 
         if operation == "0":
