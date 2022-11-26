@@ -1,4 +1,6 @@
 
+
+
 def file_reading():
     with open('example.txt', 'r+') as file:
         f = file.read()

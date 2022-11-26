@@ -1,6 +1,7 @@
 def func_1(num1, num2):
     product = num1 * num2
-    return func_2(10, 5) + product
+    division = func_2(10, 5)
+    return division + product
 
 
 def func_2(num1, num2):
