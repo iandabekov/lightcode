@@ -12,7 +12,7 @@ class Airplane:
         self.is_flying = True
 
     def fly(self, flown_range):
-        print(f'mayday, we managed to fly { flown_range}')
+        print(f'mayday, we managed to fly {flown_range}')
         self.odometer += flown_range
         print(f'At the moment odometer reading is {self.odometer}')
 
@@ -20,7 +20,6 @@ class Airplane:
         print('Appolon 13, we have to land soon')
         print('Appolon 13: Roger that!')
         self.is_flying = False
-
 
 
 airbus_a_330 = Airplane('Airbus', 'a330', 2010, 1100, 300000000)
